@@ -1,0 +1,49 @@
+.private-container {
+    background-color: #f0f4f8;
+    border-radius: 15px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.profile-title {
+    font-size: 2.5rem;
+    color: #007bff;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.welcome-message {
+    font-size: 1.5rem;
+    color: #343a40;
+    margin-top: 10px;
+}
+
+.user-name {
+    font-weight: bold;
+    color: #dc3545;
+}
+
+.loading-message {
+    font-size: 1.2rem;
+    color: #6c757d;
+}
+
+@media (max-width: 768px) {
+    .private-container {
+        padding: 30px;
+        margin-top: 50px;
+    }
+
+    .profile-title {
+        font-size: 2rem;
+    }
+
+    .welcome-message {
+        font-size: 1.2rem;
+    }
+}

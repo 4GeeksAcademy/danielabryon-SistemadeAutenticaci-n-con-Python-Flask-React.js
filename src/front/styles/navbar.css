@@ -1,0 +1,9 @@
+.nav-link {
+    color: black; /* Color del texto */
+    text-decoration: underline; /* Subrayado */
+    margin-left: 15px; /* Espacio entre enlaces */
+}
+
+.nav-link:hover {
+    text-decoration: none; /* Sin subrayado al pasar el mouse */
+}
